@@ -1,0 +1,130 @@
+
+body {
+    font-family: "Roboto", Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background-color: #cbe4e4;
+    box-sizing: border-box;
+    
+    
+}
+
+header > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+nav ul{
+    text-align: center;
+    list-style: none;
+    height:auto;
+    border-radius: 20px;
+    background-color: #EAC255;
+    box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.60), 0 6px 20px 4px rgba(10, 0, 0, 0.19);
+    padding-top: 20px;
+    padding-inline-start: 0%;
+}
+
+nav li {
+    display: inline-block;
+}
+nav li a{
+    padding-right: 25px;
+    font-size: 1.3rem;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+a:hover{
+    color: #FFFDFA;
+}
+
+.weekly_deal{
+    margin-top: 30px;
+    background-image: url('/assets/hummus.jpg');
+    background-size: cover;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.60), 0 6px 20px 4px rgba(10, 0, 0, 0.19);
+    text-align: center;
+
+}
+
+section .weekly_deal{
+    width: 100%
+}
+
+.waviy h1,
+#deal-month{
+    text-align: center;
+}
+
+section, footer{
+    display: flex; 
+      
+}
+
+.menu article img{
+    display: flex;
+    max-width: 100%;
+    height: auto;
+}
+
+  .waviy span {
+
+    position: relative;
+    display:inline-block;
+    justify-content: center;
+    color: #EAC255;
+    text-shadow: 2px 2px red;
+    text-transform: uppercase;
+    animation: waviy 6s infinite;
+    font-size: 55px; 
+  }
+
+  .waviy h1{
+    color: #EAC255;
+    text-shadow: 1px 1px red;
+    font-size: 20px;
+  }
+  @keyframes waviy {
+    0%,40%,100% {
+      transform: translateY(0)
+    }
+    20% {
+      transform: translateY(-20px)
+    }
+  }
+
+@media screen and (max-width: 480px) {
+
+    nav li a {
+        padding: 5px 5px;
+        text-align: center;
+    }
+}
+
+.menu{
+    margin-top: 15px;
+
+}
+.subhead{
+    background-color: #e8eddf;
+    margin-right: 10px;
+    box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.60), 0 6px 20px 4px rgba(10, 0, 0, 0.19);
+
+}
+.subhead h1{
+    font-size: 25px;
+    
+}
+.subhead h1, img, p{
+    display: block;
+        
+}
+
+
+
