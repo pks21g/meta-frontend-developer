@@ -8,7 +8,7 @@ function currentMonth(){
 }
 month = currentMonth()
 let elm = document.getElementById('deal-month')
-elm.innerText = month + " ALL MONTH 20% OFF";
+elm.innerText = month + " DEAL";
 console.log(month)
 
 
